@@ -5,14 +5,19 @@
         <meta charset="utf-8">
     </head>
     <body>
-        <h1 align="center">This is my first webpage</h1>
-            <a href="#car_id">go to cars</a>
-            <a href="#animal_id">go to animals</a>
-            <a href="#dog_id">go to dogs</a>
-            <a href="#cat_id">go to cats</a>
-            <a href="#partial">partial part</a>
-            <p>text1</p><p>text2</p>
-            <h2 id="car_id">This is about cars</h2>
+        <header style="background-color:red;">
+            <nav>
+                <a href="#car_id">go to cars</a>
+                <a href="#animal_id">go to animals</a>
+                <a href="#dog_id">go to dogs</a>
+                <a href="#cat_id">go to cats</a>
+                <a href="#partial">partial part</a>
+            </nav>
+        </header>
+        <main style="background-color:green;">
+            <h1 align="center" style="font-family:courier;">This is my first webpage</h1>
+            <p><strong>text1</strong></p><p style="font-family:verdana;">text2</p>
+            <h2 id="car_id" style="text-align:right;">This is about cars</h2>
                 <p>I really like the Tesla and the Volkswagen cars.</p>
                 <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             <h2 id="animal_id">This is about animals</h2>
@@ -28,7 +33,10 @@
                 <h3 id="cat_id">This is about cats</h3>
                     <p>I like cats.</p>        
                     <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <a href="about_me.html" target="_blank">author of the webpage</a>&nbsp;&nbsp;&nbsp;<a href="https://www.w3schools.com/html/">learn about html</a>
-        <a href="about_me.html#my_professional_id" target="_blank">profession of the author</a>
+        </main>
+        <footer style="background-color:yellow;">
+            <a href="about_me.html" target="_blank">author of the webpage</a>&nbsp;&nbsp;&nbsp;<a href="https://www.w3schools.com/html/">learn about html</a>
+            <a href="about_me.html#my_professional_id" target="_blank">profession of the author</a>
+        </footer>
     </body>
 </html>
